@@ -12,6 +12,29 @@ body {
   line-height: 1.5;
 }
 
+/**
+  |============================
+  | my change
+  |============================
+*/
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.field {
+  box-shadow: 0px 6px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px 4px 4px 4px;
+}
+
+.value {
+  font-weight: 300;
+  font-size: 50px;
+  color: tomato;
+}
+
 img {
   display: block;
   max-width: 100%;
